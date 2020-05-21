@@ -97,7 +97,7 @@ When you enter the form to view information about the departments, a GET - reque
 * **Editing department information.**  
 The user fills out a form for editing department information and clicks on the confirm button. A PUT - request is sent to the server and the data is validated. if the data is correct, the record in the database is edited.  
 * **Deleting department information.**  
-The user enters the departmentId of the department whose information he wants to delete. Presses the confirm button. A DELETE - request is sent to the server. The server is checking departmentId. If information about such a department exists, it will be deleted; if there is no information about such a department, the server will return a message about incorrect data.  
+The user enters the departmentId of the department which information he wants to delete. Presses the confirm button. A DELETE - request is sent to the server. The server is checking departmentId. If information about this department exists, it will be deleted; if information about this department does not exist, the server will return a message about incorrect data.  
 * **Create a new employee.**  
 The user fills out a form to create information about a new employee and clicks the confirm button. A POST - request is sent to the server, and the data is verified. If the data is correct, a new record is created in the database.  
 * **View employee information.**  
@@ -105,4 +105,4 @@ When you enter the form to view information about employees, a GET - request is 
 * **Editing employee information.**  
 The user fills out a form for editing employee information and presses the confirmation button. PUT - the request is sent to the server and the data is checked. if the data is correct, the record in the database is edited.  
 * **Delete employee information.**  
-The user enters employeeId, the information about which he wants to delete. Presses the confirm button. DELETE - the request is sent to the server. The server checks employeeId. If information about such an employee exists, it will be deleted; if information about such an employee does not exist, the server will return a message about incorrect data.
+The user enters employeeId, the information about which he wants to delete. Presses the confirm button. DELETE - the request is sent to the server. The server checks employeeId. If information about this employee exists, it will be deleted; if information about this employee does not exist, the server will return a message about incorrect data.
