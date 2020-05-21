@@ -43,7 +43,7 @@ CRUD operations - Create, read, update, delete.
 
 ### 2.1 Product Perspective
 This is a simple human resource management system that allows you to interact with two entities: "Department" and "Employee". Database Organization Scheme:  
-![BD scheme](./img/BD_scheme.png)
+![BD scheme](./img/DB_scheme.png)
 
 ### 2.2 Product Functions
 Functions available to the user:  
