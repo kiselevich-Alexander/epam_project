@@ -30,7 +30,7 @@ Table of Contents
 This SRS describes the software functional and nonfunctional requirements for Human resource management system. This document is intended to be used by the members of the project team that will implement and verify the correct functioning of the system.
 
 ### 1.2 Product Scope
-Human resource management system allows you to manage the affiliation of personnel to a particular department. It should have only two entities: ìDepartmentî and ìEmployeeî, related as one to many.
+Human resource management system allows you to manage the affiliation of personnel to a particular department. It should have only two entities: ‚ÄúDepartment‚Äù and ‚ÄúEmployee‚Äù, related as one to many.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 MVC -(Model-View-Controller) MVC is an application design model comprised of three interconnected parts. They include the model (data), the view (user interface), and the controller (processes that handle input).  
@@ -67,11 +67,7 @@ Entity class diagram:
 ### 2.5 Assumptions and Dependencies
 Dependencies:  
 
-* mysql-connector-java  
-* spring-boot-starter-log4j2  
-* spring-boot-starter-web  
-* spring-boot-starter  
-* spring-boot-starter-test  
+* mysql-connector-java   
 
 ## 3. Requirements
 
